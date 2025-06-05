@@ -1,9 +1,9 @@
-import frame1 from "../awards-page/frame.png";
-import frame2 from "../awards-page/frame.png";
-import frame3 from "../awards-page/frame.png";
-import frame4 from "../awards-page/frame.png";
-import frame5 from "../awards-page/frame.png";
-import frame6 from "../awards-page/frame.png";
+import frame1 from "./frame.png";
+import frame2 from "./frame.png";
+import frame3 from "./frame.png";
+import frame4 from "./frame.png";
+import frame5 from "./frame.png";
+import frame6 from "./frame.png";
 
 function AwardCard() {
   const AwardData = [

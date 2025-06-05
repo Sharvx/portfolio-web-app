@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CardProject from "./CardProject";
-import NEXT from "../projects-page/next-prev.png";
+import NEXT from "./next-prev.png";
 
 function LandingPage() {
   const [currentIndex, setCurrentIndex] = useState(0);

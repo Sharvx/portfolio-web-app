@@ -1,4 +1,4 @@
-import FRAME from "../projects-page/frame.png";
+import FRAME from "./frame.png";
 
 function CardProject() {
   const Card = [

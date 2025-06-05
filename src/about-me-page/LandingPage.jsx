@@ -1,4 +1,4 @@
-import dp from "../assets/dp-about-me.png";
+import dp from "./dp-about-me.png";
 
 function LandingPage() {
   return (
