@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f8fae7;
+  --color-sheer: #efdcab;
+  --color-caramel: #d98324;
+  --color-choco: #443627;
+  --breakpoint-xs: 23.4375rem;
+}
+
+@utility flex-row-y-center {
+  @apply flex flex-row items-center;
+}
+
+@utility flex-row-x-center {
+  @apply flex flex-row justify-center;
+}
+@utility flex-row-center {
+  @apply flex flex-row items-center justify-center;
+}
+
+@utility flex-column-y-center {
+  @apply flex flex-col justify-center;
+}
+
+@utility flex-column-x-center {
+  @apply flex flex-col items-center;
+}
+@utility flex-column-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+@utility small-text {
+  @apply text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl;
+}
+
+@utility medium-text {
+  @apply text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl;
+}
+@utility large-text {
+  @apply text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl;
+}
+@utility xl-text {
+  @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  background: #f8fae7;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html::-webkit-scrollbar,
+#projects-card-container::-webkit-scrollbar {
+  background: transparent; /* Chrome/Safari/Webkit */
+  width: 0px;
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+#about-me-background {
+  box-shadow: 0px 0px 20px 0px #efdcab;
+}

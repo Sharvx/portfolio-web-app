@@ -1,0 +1,47 @@
+xs:
+	Padding-x-axis:
+		10
+
+	Font Size:
+		xs
+		sm
+		base
+		2xl
+
+
+md:
+	Font Size:
+		sm
+		base
+		lg
+		3xl
+	Padding-x-axis:
+		15
+
+lg:
+	Font Size:
+		base
+		lg
+		xl
+		4xl
+	Padding-x-axis:
+		30	
+
+xl:
+	Font Size:
+		lg
+		xl
+		2xl
+		5xl
+		
+
+2xl:
+
+	Font Size:
+		xl
+		2xl
+		3xl
+		6xl
+
+	
+		
