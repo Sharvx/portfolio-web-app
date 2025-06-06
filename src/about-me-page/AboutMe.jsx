@@ -5,11 +5,14 @@ import MySkills from "./MySkills/MySkills.jsx";
 function AboutMePage() {
   return (
     <>
-      <div id="about-me-background" className="bg-sheer px-10 md:px-15 lg:px-30 drop-shadow-yellow drop-shadow-xl">
+      <div
+        id="about-me-background"
+        className="bg-sheer drop-shadow-yellow px-10 drop-shadow-xl md:px-15 lg:px-30"
+      >
         <LandingPage />
-        <div className="h-0.5 w-full bg-caramel my-[16dvh]"></div>
+        <div className="bg-caramel my-[16dvh] h-0.5 w-full"></div>
         <MyJourney />
-        <div className="h-0.5 w-full bg-caramel my-[16dvh]"></div>
+        <div className="bg-caramel my-[16dvh] h-0.5 w-full"></div>
         <MySkills />
       </div>
     </>

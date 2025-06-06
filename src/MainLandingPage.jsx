@@ -5,7 +5,7 @@ function LandingPage() {
     <>
       <div
         id="landing-page"
-        className="bg-cream flex-column-center pt-[5dvh] h-[95dvh] w-full flex-col"
+        className="bg-cream flex-column-center h-[95dvh] w-full flex-col pt-[5dvh]"
       >
         <div
           id="backgorund"
@@ -27,7 +27,10 @@ function LandingPage() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam
             </div>
-            <a href="#projects-page" className="text-cream bg-choco small-text hidden w-fit rounded-full p-2 md:block xl:px-3 hover:bg-caramel cursor-pointer transition-all ease-in-out">
+            <a
+              href="#projects-page"
+              className="text-cream bg-choco small-text hover:bg-caramel hidden w-fit cursor-pointer rounded-full p-2 transition-all ease-in-out md:block xl:px-3"
+            >
               VIEW MY PROJECTS
             </a>
           </div>
