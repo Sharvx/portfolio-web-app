@@ -98,14 +98,14 @@ function LandingPage() {
           <CardProject />
         </div>
 
-        <div className="flex-row-y-center w-fit justify-between gap-1">
+        <div className="flex-row-y-center w-fit md:w-[30%] justify-between gap-1">
           <div
             className="small-text text-cream bg-choco flex-row-center h-[6dvh] w-[100%] max-w-[50px] min-w-[30px] cursor-pointer rounded-full p-1 transition-all ease-in-out hover:scale-[1.1]"
             onClick={prevHandler}
           >
             <img src={NEXT} alt="" className="size-[3dvh] rotate-180" />
           </div>
-          <div className="flex-row-center gap-1">{circles()}</div>
+          <div className="flex-row-center gap-1 md:gap-[2dvh]">{circles()}</div>
           <div
             className="small-text text-cream bg-choco flex-row-center h-[6dvh] w-[100%] max-w-[50px] min-w-[30px] cursor-pointer rounded-full p-1 transition-all ease-in-out hover:scale-[1.1]"
             onClick={nextHandler}
