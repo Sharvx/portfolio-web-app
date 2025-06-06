@@ -93,19 +93,19 @@ function LandingPage() {
         <div className="xl-text text-choco font-bold">PROJECTS</div>
         <div
           id="projects-card-container"
-          className="flex-row-y-center h-fit w-[70%] snap-x snap-mandatory flex-nowrap overflow-hidden scroll-smooth rounded-4xl"
+          className="flex-row-y-center h-fit  w-full md:w-[70%] snap-x snap-mandatory flex-nowrap overflow-hidden scroll-smooth rounded-4xl"
         >
           <CardProject />
         </div>
 
-        <div className="flex-row-y-center w-[50%] justify-between gap-1">
+        <div className="flex-row-y-center w-fit justify-between gap-1">
           <div
             className="small-text text-cream bg-choco flex-row-center h-[6dvh] w-[100%] max-w-[50px] min-w-[30px] cursor-pointer rounded-full p-1 transition-all ease-in-out hover:scale-[1.1]"
             onClick={prevHandler}
           >
             <img src={NEXT} alt="" className="size-[3dvh] rotate-180" />
           </div>
-          <div className="flex-row-center gap-[1dvh]">{circles()}</div>
+          <div className="flex-row-center gap-1">{circles()}</div>
           <div
             className="small-text text-cream bg-choco flex-row-center h-[6dvh] w-[100%] max-w-[50px] min-w-[30px] cursor-pointer rounded-full p-1 transition-all ease-in-out hover:scale-[1.1]"
             onClick={nextHandler}

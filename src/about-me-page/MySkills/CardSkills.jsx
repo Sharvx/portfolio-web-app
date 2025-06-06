@@ -33,7 +33,7 @@ const SkillCards = [
 ];
 
 const cardList = SkillCards.map((card) => (
-  <div className="bg-cream flex-column-center h-[30dvh] max-w-[35%] min-w-[35%] grow gap-[4dvh] rounded-xl p-5 xl:max-w-[30%] xl:min-w-[30%]">
+  <div className="bg-cream flex-column-center max-w-[40%] min-w-[40%]  h-[25dvh] md:h-[30dvh] md:max-w-[35%] md:min-w-[35%] grow gap-[4dvh] rounded-xl p-5 xl:max-w-[30%] xl:min-w-[30%]">
     <img src={card.ImageSRC} alt="" className="h-[10dvh]" />
     <div className="medium-text text-choco font-bold">{card.Label}</div>
   </div>
