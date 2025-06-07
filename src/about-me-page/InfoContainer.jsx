@@ -54,7 +54,7 @@ function InfoContainer() {
   };
 
   const educMap = Education.Card.map((educCard) => (
-    <div className="bg-cream flex min-h-[20dvh] w-[100%] flex-col p-5">
+    <div className="bg-cream flex min-h-[20dvh] w-[100%] flex-col p-5 drop-shadow-amber-200 drop-shadow-md">
       <div>
         <div className="flex flex-row justify-between">
           <div className="small-text text-caramel font-bold">
@@ -71,7 +71,7 @@ function InfoContainer() {
   ));
 
   const experMap = Experiences.Card.map((experMap) => (
-    <div className="bg-cream flex min-h-[20dvh] w-[100%] flex-col p-5">
+    <div className="bg-cream flex min-h-[20dvh] w-[100%] flex-col p-5 drop-shadow-amber-200 drop-shadow-md">
       <div>
         <div className="flex flex-row justify-between">
           <div className="small-text text-caramel font-bold">

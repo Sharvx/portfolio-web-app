@@ -58,7 +58,7 @@ function AwardCard() {
   ];
 
   const AwardList = AwardData.map((award) => (
-    <div className="bg-sheer min-w-[250px] max-w-[30%] h-fit w-[100%] grow p-5">
+    <div className="bg-sheer min-w-[250px] max-w-[30%] h-fit w-[100%] grow p-5 drop-shadow-amber-200 drop-shadow-md">
       <div className="medium-text text-caramel font-bold mb-1">{award.Title}</div>
       <div className="small-text text-choco font-bold">{award.Event}</div>
       <div className="small-text text-choco my-8">{award.Details}</div>

@@ -37,7 +37,7 @@ function CardProject() {
   const cardList = Card.map((card, index) => (
     <div
       id={"card-" + index}
-      className="bg-sheer flex-row-y-center h-[50dvh] min-w-[100%] snap-center justify-around"
+      className="bg-sheer flex-row-y-center h-[50dvh] min-w-[100%] snap-center justify-around "
     >
       <img src={card.Image} alt="" className="h-[30dvh] w-[30%] rounded-md" />
       <div className="flex h-[30dvh] w-[50%] flex-col justify-around">

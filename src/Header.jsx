@@ -33,7 +33,7 @@ function Header() {
     <>
       <div
         id="header-body"
-        className="bg-cream flex-row-y-center shadow-cream fixed top-0 z-100 h-[10dvh] w-full px-10 shadow-md md:px-15 xl:px-30"
+        className="bg-cream flex-row-y-center shadow-cream fixed top-0 z-100 h-[10dvh] min-h-fit w-full px-10 shadow-md md:px-15 xl:px-30"
       >
         <div className="grow-1 transition-all ease-in-out">
           <a

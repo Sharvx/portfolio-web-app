@@ -93,7 +93,7 @@ function LandingPage() {
         <div className="xl-text text-choco font-bold">PROJECTS</div>
         <div
           id="projects-card-container"
-          className="flex-row-y-center h-fit  w-full md:w-[70%] snap-x snap-mandatory flex-nowrap overflow-hidden scroll-smooth rounded-4xl"
+          className="flex-row-y-center h-fit  w-full md:w-[70%] snap-x snap-mandatory flex-nowrap overflow-hidden scroll-smooth rounded-4xl drop-shadow-amber-200 drop-shadow-xl"
         >
           <CardProject />
         </div>

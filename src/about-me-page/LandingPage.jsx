@@ -9,7 +9,7 @@ function LandingPage() {
         <img
           src={dp}
           alt=""
-          className="2xl:size:125 size-70 md:size-80 lg:size-90 xl:size-120"
+          className="2xl:size:125 size-70 md:size-80 lg:size-90 xl:size-120 drop-shadow-amber-200 drop-shadow-md"
         />
         <div className="text-caramel large-text my-3 font-bold">
           Web & Android Developer
