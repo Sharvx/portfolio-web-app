@@ -23,7 +23,7 @@ function LandingPage() {
               Web & Android Developer
             </div>
             <div className="small-text mb-3 2xl:mt-3 2xl:mb-5">
-              I love programming, even though it can be challenging at times. The process of solving problems and building things from scratch keeps me motivated and curious. I'm constantly learning new concepts and improving my skills as I grow as a developer.
+              The process of solving problems and building things from scratch keeps me motivated and curious. I'm constantly learning new concepts and improving my skills as I grow as a developer.
             </div>
             <a
               href="#projects-page"
