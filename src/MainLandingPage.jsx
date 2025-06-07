@@ -13,7 +13,7 @@ function LandingPage() {
         >
           <div
             id="info-container"
-            className="bg-sheer md:bg-cream text-choco flex-column-x-center m-10 h-auto w-full justify-around rounded-3xl p-8 text-center md:m-0 md:w-[60%] md:items-start md:p-5 md:pr-20 md:text-start lg:pr-23 xl:px-20 xl:pr-50"
+            className="bg-sheer drop-shadow-amber-200 drop-shadow-lg md:drop-shadow-none md:bg-cream text-choco flex-column-x-center m-10 h-auto w-full justify-around rounded-3xl p-8 text-center md:m-0 md:w-[60%] md:items-start md:p-5 md:pr-20 md:text-start lg:pr-23 xl:px-20 xl:pr-50"
           >
             <div className="text-choco medium-text">Hello!</div>
             <div className="text-caramel xl-text my-1 font-bold lg:my-2 2xl:my-4 drop-shadow-amber-200 drop-shadow-lg">
